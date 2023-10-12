@@ -184,6 +184,7 @@ button{
     letter-spacing: 0.72px;
     text-transform: capitalize;
     margin: 0;
+    color: #2e2f42;
 }
 .list-position{
     display: flex;
@@ -194,7 +195,7 @@ button{
 .item-paddind{
     margin: 48px 12px 0px 12px;
     background-color: #FFFFFF;
-    
+
 }
 .footer-style{
     height: 312px;
