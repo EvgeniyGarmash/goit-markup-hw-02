@@ -100,18 +100,19 @@ button{
 }
 
 .hero-text {
-    color: #FfffFF;
+    color: #ffffff;
     text-align: center;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
     letter-spacing: 1.12px;
     width: 496px;
     margin: auto;
-    margin-bottom: 48px
+    margin-bottom: 48px;
+    line-height: 1.07;
 }
 .hero-button {
+    font-family: "Roboto", sans-serif;
     display: block;
     margin: auto;
     padding: 16px 32px;
@@ -127,6 +128,12 @@ button{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+}
+.hero-button:hover {
+    background-color: #404BBF;
+}
+.hero-button:focus {
+    background-color: #404BBF;
 }
 .about-as{
     margin-bottom: 240px;
@@ -152,6 +159,7 @@ button{
     line-height: 1.2;
     letter-spacing: 0.4px;
     margin-top: 32px;
+    color: #2e2f42;
 }
 .list-text{
     color: #434455;
