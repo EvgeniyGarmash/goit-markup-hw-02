@@ -76,6 +76,7 @@ button{
     color:#FFFfff;
     font-weight: 500;
     letter-spacing: 0.64px;
+    line-height: 1.5;
 }
 .hero-button:hover {
     background-color: #404BBF;
